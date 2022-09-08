@@ -1,11 +1,13 @@
 
 # Print the numbers described in the exercise
-numbers = " "
-for i in range(10):
-    if i != 10:
-        numbers += str(i+1)
-        numbers += " "
-        print(numbers)
+
+numbers = ''
+
+for i in range(1,11):
+    if i == 1:
+        numbers += str(i)
     else:
-        numbers += str(i+1)
-        
+        numbers += " "
+        numbers += str(i)
+    print(numbers)
+    
