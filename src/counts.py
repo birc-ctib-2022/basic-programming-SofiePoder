@@ -7,6 +7,10 @@ x = sys.stdin.read().replace("\n", "")
 count = {}
 # Count the characters in `x`` and put the counts in `counts`.
 # Your code goes here.
+for character in x:
+    if character not in x:
+        count[character] = 0
+    count[character] += 1
 
 
 # Get the keys, i.e., the characters, in sorted order

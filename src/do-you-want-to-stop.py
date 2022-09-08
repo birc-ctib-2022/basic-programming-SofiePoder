@@ -4,7 +4,7 @@
 
 answer = input('Do you want to stop? ')
 
-while answer:
-    if answer != "yes": 
-        input('Do you want to stop? ')
+while answer != "yes": 
+    input('Do you want to stop?')
+    break
 
