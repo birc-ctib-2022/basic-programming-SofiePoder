@@ -1,12 +1,11 @@
 
 # Print the numbers described in the exercise
-list = " "
+numbers = " "
 for i in range(10):
     if i != 10:
-        list += str(i+1)
-        list += " "
-        print(list)
+        numbers += str(i+1)
+        numbers += " "
+        print(numbers)
     else:
-        list += str(i+1)
+        numbers += str(i+1)
         
-      
