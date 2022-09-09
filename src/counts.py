@@ -8,7 +8,7 @@ count = {}
 # Count the characters in `x`` and put the counts in `counts`.
 # Your code goes here.
 for character in x:
-    if character not in x:
+    if character not in count:
         count[character] = 0
     count[character] += 1
     print(count)
