@@ -11,6 +11,7 @@ for character in x:
     if character not in x:
         count[character] = 0
     count[character] += 1
+    print(count)
 
 
 # Get the keys, i.e., the characters, in sorted order
