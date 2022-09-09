@@ -6,3 +6,4 @@ answer = ""
 
 while answer != "yes": 
     answer = input('Do you want to stop? ')
+    break
