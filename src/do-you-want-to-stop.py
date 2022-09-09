@@ -5,4 +5,4 @@
 answer = ""
 
 while answer != "yes": 
-    answer = input('Do you want to stop?')
+    answer = input('Do you want to stop? ')
